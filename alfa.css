@@ -1,0 +1,16 @@
+nav{
+ width: 100%;
+}
+
+nav ul{
+    text-align: center;
+    margin: 0 0 0 0;
+    padding-left: 0;
+}
+
+nav ul li{
+    list-styles-type: none;
+    width: 20%;
+    background: #001a72;
+    float: left;
+}
