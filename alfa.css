@@ -20,7 +20,7 @@ nav ul li a:hover,
 nav ul li a:focus
 
 {
-    color: white;
+    color: red;
 }
 
 nav{
@@ -36,7 +36,7 @@ nav ul{
 
 nav ul li{
     list-styles-type: none;
-    width: 16.666666666666666666666666666%;
+    width: 16.6666666666666666666666666667%;
     background: #001a72;
     float: left;
 }
