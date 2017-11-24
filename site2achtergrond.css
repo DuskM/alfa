@@ -1,11 +1,10 @@
 /* styles for site2 */
 body{
-  width: 96%;
+  width: 100%;
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5%;
-  border: 1px solid;
   overflow: inherit;
   background-color: #fff;
   text-align: center;

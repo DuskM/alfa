@@ -1,31 +1,31 @@
-.nav{
+nav{
  width: 100%;
 }
 
-.nav ul{
+nav ul{
     text-align: center;
     margin: 0 0 0 0;
     padding-left: 0;
     color: white;
 }
 
-.nav ul li{
+nav ul li{
     list-styles-type: none;
     width: 16%;
     background: #001a72;
     float: left;
 }
 
-.a {
+a {
     text-decoration: none;
 }
-.nav ul li a {
-    font-size: 1.7 rem;
+nav ul li a {
+    font-size: 1.7rem;
     opacity: 0.5;
     filter: alpha(opacity=50);
 }
-.nav ul li a:hover,
-.nav ul li a:focus
+nav ul li a:hover,
+nav ul li a:focus
 
 {
     color: firebrick;
