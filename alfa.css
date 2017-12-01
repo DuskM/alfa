@@ -1,6 +1,7 @@
 #logo {
     margin-top: 15px;
     padding-top: 10%;
+    padding-right: 30%;
     background-image: url(aclogo.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -40,10 +41,17 @@ nav ul li{
     background: #001a72;
     float: left;
 }
+<<<<<<< Updated upstream
 
 #rooster {
     width: 100%;
+<<<<<<< Updated upstream
     height: 600px;
+=======
+    height: 500px;
+    border: 1px solid;
+    border-color: black;
+>>>>>>> Stashed changes
     overflow: inherit;
     background-color: white;
     text-align: left;
@@ -54,7 +62,7 @@ nav ul li{
 }
 
 iframe {
-    height: 90%;
+    height: 100%;
     width: 100%;
 }
 
@@ -73,3 +81,5 @@ iframe {
 }
 
 
+=======
+>>>>>>> Stashed changes
