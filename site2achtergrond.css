@@ -9,11 +9,11 @@ body{
   background-color: #fff;
   text-align: center;
   font-family: Verdana, Arial, sans-serif;\
-color: #000;
+  color: #000;
   font-size: 16px;
   font-weight: normal;
 }
-main{
+body{
   width: 100%;
   margin: 0;
   padding-bottom: 3%;
