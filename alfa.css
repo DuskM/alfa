@@ -43,7 +43,7 @@ nav ul li{
 
 #rooster {
     width: 100%;
-    height: 500px;
+    height: 600px;
     border: 1px solid;
     border-color: black;
     overflow: inherit;
@@ -56,7 +56,7 @@ nav ul li{
 }
 
 iframe {
-    height: 100%;
+    height: 90%;
     width: 100%;
 }
 
