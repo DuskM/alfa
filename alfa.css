@@ -41,17 +41,13 @@ nav ul li{
     background: #001a72;
     float: left;
 }
-<<<<<<< Updated upstream
+
 
 #rooster {
     width: 100%;
-<<<<<<< Updated upstream
     height: 600px;
-=======
-    height: 500px;
     border: 1px solid;
     border-color: black;
->>>>>>> Stashed changes
     overflow: inherit;
     background-color: white;
     text-align: left;
@@ -79,7 +75,3 @@ iframe {
     font-size: 14px;
     font-weight: normal;
 }
-
-
-=======
->>>>>>> Stashed changes
