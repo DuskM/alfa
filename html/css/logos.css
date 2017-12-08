@@ -1,0 +1,16 @@
+#logo {
+    margin-top: 15px;
+    padding-top: 10%;
+    padding-right: 30%;
+    background-image: url(Media/aclogo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#discordlogo {
+    margin-top: 15px;
+    padding-top: 100%;
+    padding-right: 30%;
+    background-image: url(Media/discord1.png);
+    background-repeat: no-repeat;
+}

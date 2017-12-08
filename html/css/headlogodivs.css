@@ -1,82 +1,60 @@
-#logo {
-    margin-top: 15px;
-    padding-top: 10%;
-    padding-right: 30%;
-    background-image: url(Media/aclogo.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
 }
 
-
-
-a {
-    text-decoration: none;
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
 }
-nav ul li a {
-    font-size: 1.7rem;
-    filter: alpha(opacity=50);
-    color: white;
-}
-nav ul li a:hover,
-nav ul li a:focus
 
-{
+/* The Close Button */
+.close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
     color: red;
+    cursor: pointer;
 }
 
-nav{
- width: 100%;
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
 }
 
-nav ul{
-    text-align: center;
-    margin: 0 0 0 0;
-    padding-left: 0;
-    color: #001a72;
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
 }
 
-nav ul li{
-    list-styles-type: none;
-    width: 16.6666666666666666666666666667%;
-    background: #001a72;
-    float: left;
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
 }
 
 
-#rooster {
-    width: 100%;
-    height: 600px;
-    overflow: inherit;
-    background-color: white;
-    text-align: left;
-    font-family: Verdana, Arial, sans-serif;
-    color: black;
-    font-size: 14px;
-    font-weight: normal;
-}
-
-iframe {
-    height: 90%;
-    width: 100%;
-}
-
-#discord {
-    width: 100%;
-    height: 500px;
-    border: 1px solid;
-    border-color: black;
-    overflow: inherit;
-    background-color: white;
-    text-align: left;
-    font-family: Verdana, Arial, sans-serif;
-    color: black;
-    font-size: 14px;
-    font-weight: normal;
-}
-#discordlogo {
-  margin-top: 15px;
-  padding-top: 100%;
-  padding-right: 30%;
-  background-image: url(Media/discord1.png);
-  background-repeat: no-repeat;
-}
