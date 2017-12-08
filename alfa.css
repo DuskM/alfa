@@ -73,3 +73,10 @@ iframe {
     font-size: 14px;
     font-weight: normal;
 }
+#discordlogo {
+  margin-top: 15px;
+  padding-top: 10%;
+  padding-right: 30%;
+  background-image: url(discord2.png);
+  background-repeat: no-repeat;
+}
