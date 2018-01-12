@@ -6,7 +6,7 @@ body{
   margin-right: auto;
   margin-bottom: 5%;
   overflow: inherit;
-  background-color: #fff;
+  background: linear-gradient(white, lightgray);
   text-align: center;
   font-family: Verdana, Arial, sans-serif;\
   color: #000;

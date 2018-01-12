@@ -11,6 +11,10 @@
     margin-top: 15px;
     padding-top: 100%;
     padding-right: 30%;
-    background-image: url(Media/discord1.png);
+    background-image: url(Media/discord3.png);
     background-repeat: no-repeat;
+    position: relative;
+    top: -90px;
+    left: 55%;
+
 }
