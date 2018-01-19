@@ -1,0 +1,20 @@
+/* styles for site2 */
+body{
+  width: 99%;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  overflow: inherit;
+  background: linear-gradient(white, lightgray);
+  text-align: center;
+  font-family: Verdana, Arial, sans-serif;
+  color: #000;
+  font-size: 16px;
+  font-weight: normal;
+}
+main {
+  width: 100%;
+  margin: 0;
+  padding-bottom: 3%;
+}
