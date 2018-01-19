@@ -1,0 +1,13 @@
+{
+  "name": "A-weapon-to-surpass-MIGHTY-MURK",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Servicebot",
+  "main": "bot.js",
+  "author": "Me",
+  "dependencies": {
+    "discord.io": "^2.5.3",
+    "winston": "^2.4.0"
+  },
+  "license": "Artistic-2.0"
+}
