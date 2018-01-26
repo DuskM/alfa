@@ -1,7 +1,7 @@
 {
   "name": "a-weapon-to-surpass-BITY-BURK",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "bot.js",
   "repository": "https://github.com/DuskM/alfa",
   "author": "Marvin",
   "scripts": {
