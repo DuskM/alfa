@@ -1,13 +1,40 @@
 {
-  "name": "A-weapon-to-surpass-MIGHTY-MURK",
+  "name": "a-weapon-to-surpass-BITY-BURK",
   "version": "1.0.0",
-  "private": true,
-  "description": "Servicebot",
-  "main": "bot.js",
-  "author": "Me",
-  "dependencies": {
-    "discord.io": "^2.5.3",
-    "winston": "^2.4.0"
+  "main": "server.js",
+  "repository": "https://github.com/DuskM/alfa",
+  "author": "Marvin",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
   },
-  "license": "Artistic-2.0"
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bufferutil": "^3.0.3",
+    "cheerio": "^1.0.0-rc.2",
+    "colors": "^1.1.2",
+    "discord.js": "^11.3.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "fs-extra": "^4.0.2",
+    "mongodb": "^2.2.33",
+    "node-fetch": "^1.7.3",
+    "node-watch": "^0.5.5",
+    "npm-sass": "^2.2.1",
+    "puppeteer": "^0.13.0",
+    "request": "^2.83.0",
+    "sha256": "^0.2.0",
+    "shelljs": "^0.7.8",
+    "vue": "^2.5.3"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "www/*",
+      "tests/*",
+      "config.json",
+      "README.md",
+      "package.json"
+    ]
+  }
 }
