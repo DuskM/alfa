@@ -1,32 +1,31 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+const auth = require('./auth.json')
 
-client.login('NDAzODQwNjAzNjkyOTkwNDY0.DUNJhg.9nyvq9e5fDTWN8J7tutii2wDToY');
+client.login(auth.token)
 
 client.on('ready', () => {
     console.log('Bot is online!');
-
 });
 
-
-client.on('message', function (user, userID, channelID, message, evt) {
+client.on('message', msg => {
     // Our bot needs to know if it needs to execute a command
-    // for this script it will listen for messages that will start with `!`
+    // for this script it will listen for messages that will start with `$`
+    var message = msg.content
     if (message.startsWith("$")) {
         var args = message.substring(1).split(' ');
         var cmd = args[0];
-        var message = "pong";
 
         args = args.splice(1);
 
         switch(cmd) {
             // !ping
             case 'ping':
-                client.sendMessage({ to: channelID, message: 'Pong!' });
+                msg.reply('Pong!');
                 break;
             default:
-                client.sendMessage({ to: channelID, message: 'Unknown command.' });
+                msg.reply('Unknown command.');
         }
     }
 })
