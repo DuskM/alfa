@@ -4,5 +4,7 @@
   "description": "Servicebot voor ICT alfa.",
   "main": "bot.js",
   "author": "Marvin-Koning & Mark-van-Dijk",
-  "dependencies": {}
+  "dependencies": {
+    "discord.js": "^11.3.0"
+  }
 }

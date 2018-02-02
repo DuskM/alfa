@@ -2,6 +2,9 @@
 DiscordBot2/node_modules/*
 DiscordBot2/yarn.lock
 
-DiscordBot/node_modules/discord\.js/
+DiscordBot/node_modules/*
+DiscordBot/yarn.lock
 
 DiscordBot/auth\.json
+
+DiscordBot2/auth\.json
