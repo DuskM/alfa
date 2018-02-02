@@ -13,19 +13,36 @@ client.on('message', msg => {
     // Our bot needs to know if it needs to execute a command
     // for this script it will listen for messages that will start with `$`
     var message = msg.content
-    if (message.startsWith("$")) {
-        var args = message.substring(1).split(' ');
-        var cmd = args[0];
+    if (message.startsWith("$"))
+{
+    var args = message.substring(1).split(' ');
+    var cmd = args[0];
 
-        args = args.splice(1);
+    args = args.splice(1);
 
-        switch(cmd) {
-            // !ping
-            case 'ping':
-                msg.reply('Pong!');
-                break;
-            default:
-                msg.reply('Unknown command.');
-        }
+    switch (cmd) {
+        // !ping
+        case 'ping':
+            msg.reply('Pong!');
+            break;
+        default:
+            msg.reply('Unknown command.');
+    }
+}    else (message.startsWith(""))
+{
+    var args = message.substring(1).split(' ');
+    var cmd = args[0];
+
+    args = args.splice(1);
+
+    switch (cmd) {
+        // !ping
+        case 'yare yare':
+            msg.reply('daze');
+            break;
+        default:
+            msg.reply('Unknown command.');
+         }
+
     }
 })

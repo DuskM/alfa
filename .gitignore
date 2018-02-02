@@ -1,3 +1,5 @@
 
 DiscordBot2/node_modules/*
 DiscordBot2/yarn.lock
+
+DiscordBot/node_modules/discord\.js/
